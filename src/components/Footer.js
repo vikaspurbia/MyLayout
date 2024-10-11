@@ -7,8 +7,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Left section with contact information */}
           <div className="space-y-4">
-            <h2 className="text-2xl font-bold text-blue-800">Got ideas? Let's team up!</h2>
-            <p className="text-gray-600">
+            <h2 className="text-2xl font-bold text-blue-800 font-serif">Got ideas? Let's team up!</h2>
+            <p className="text-gray-600 font-serif">
               Tell us more about yourself and what you've got in mind. We're here to help!
             </p>
 
@@ -24,7 +24,7 @@ const Footer = () => {
                   {/* Placeholder icon for email */}
                   <path d="M12 12l8-6H4l8 6z" />
                 </svg>
-                <span className="ml-3 text-gray-600">contact@yourcompany.com</span>
+                <span className="ml-3 text-gray-600 font-serif">contact@yourcompany.com</span>
               </div>
 
               <div className="flex items-center">
@@ -37,7 +37,7 @@ const Footer = () => {
                   {/* Placeholder icon for phone */}
                   <path d="M6 8h12v2H6V8zm0 4h12v2H6v-2z" />
                 </svg>
-                <span className="ml-3 text-gray-600">+123 456 7890</span>
+                <span className="ml-3 text-gray-600 font-serif">+123 456 7890</span>
               </div>
 
               <div className="flex items-center">
@@ -50,14 +50,14 @@ const Footer = () => {
                   {/* Placeholder icon for location */}
                   <path d="M12 2C8.13 2 5 5.13 5 9c0 3.87 7 13 7 13s7-9.13 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z" />
                 </svg>
-                <span className="ml-3 text-gray-600">123 Main St, Your City</span>
+                <span className="ml-3 text-gray-600 font-serif">123 Main St, Your City</span>
               </div>
             </div>
           </div>
 
           {/* Right section with form */}
           <div className="bg-white rounded-lg shadow-lg p-6">
-            <h3 className="text-xl font-bold text-blue-800">Tell us about your project</h3>
+            <h3 className="text-xl font-bold text-blue-800 font-serif text-center">Tell us about your project</h3>
 
             <form className="mt-4 space-y-4">
               <input
@@ -105,11 +105,24 @@ const Footer = () => {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              className="h-8 w-8 text-green-600 hover:text-green-800 transition"
+              className="h-8 w-8 text-pink-600 hover:text-pink-500 transition"
             >
               <path d="M12 2.16c3.18 0 3.56.01 4.81.07 1.17.06 1.96.25 2.41.42.62.23 1.08.51 1.56.99.48.48.76.94.99 1.56.17.45.36 1.24.42 2.41.06 1.25.07 1.63.07 4.81s-.01 3.56-.07 4.81c-.06 1.17-.25 1.96-.42 2.41-.23.62-.51 1.08-.99 1.56-.48.48-.94.76-1.56.99-.45.17-1.24.36-2.41.42-1.25.06-1.63.07-4.81.07s-3.56-.01-4.81-.07c-1.17-.06-1.96-.25-2.41-.42-.62-.23-1.08-.51-1.56-.99-.48-.48-.76-.94-.99-1.56-.17-.45-.36-1.24-.42-2.41-.06-1.25-.07-1.63-.07-4.81s.01-3.56.07-4.81c.06-1.17.25-1.96.42-2.41.23-.62.51-1.08.99-1.56.48-.48.94-.76 1.56-.99.45-.17 1.24-.36 2.41-.42C8.44 2.17 8.82 2.16 12 2.16zm0-1.16C8.72 1 8.29 1.01 7.05 1.08c-1.27.07-2.39.3-3.32.62-.98.34-1.82.8-2.61 1.59C.7 3.72.24 4.56-.1 5.54c-.32.93-.55 2.05-.62 3.32-.07 1.24-.08 1.67-.08 4.95s.01 3.72.08 4.95c.07 1.27.3 2.39.62 3.32.34.98.8 1.82 1.59 2.61.78.78 1.62 1.24 2.61 1.59.93.32 2.05.55 3.32.62 1.24.07 1.67.08 4.95.08s3.72-.01 4.95-.08c1.27-.07 2.39-.3 3.32-.62.98-.34 1.82-.8 2.61-1.59.78-.78 1.24-1.62 1.59-2.61.32-.93.55-2.05.62-3.32.07-1.24.08-1.67.08-4.95s-.01-3.72-.08-4.95c-.07-1.27-.3-2.39-.62-3.32-.34-.98-.8-1.82-1.59-2.61-.78-.78-1.62-1.24-2.61-1.59-.93-.32-2.05-.55-3.32-.62C15.44 0 15.07 0 12 0zM12 5.84a6.16 6.16 0 1 0 0 12.32 6.16 6.16 0 0 0 0-12.32zm0 10.32a4.16 4.16 0 1 1 0-8.32 4.16 4.16 0 0 1 0 8.32zM18.88 5.12a1.12 1.12 0 1 0 0 2.24 1.12 1.12 0 0 0 0-2.24z" />
             </svg>
           </a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    className="h-8 w-8 text-blue-600 hover:text-sky-500 transition"
+  >
+    <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.25c-.97 0-1.75-.78-1.75-1.75s.78-1.75 1.75-1.75 1.75.78 1.75 1.75-.78 1.75-1.75 1.75zm13.5 11.25h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.88v1.37h.04c.4-.75 1.38-1.54 2.84-1.54 3.04 0 3.6 2 3.6 4.57v5.6z" />
+  </svg>
+</a>
+
+
+
         </div>
       </div>
     </footer>

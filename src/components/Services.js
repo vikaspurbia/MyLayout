@@ -57,7 +57,7 @@ const services = [
 const Services = () => {
   return (
     <section id="services" className="py-12 bg-light-green-50"> {/* Changed background color */}
-      <div className="container mx-auto text-center mb-4 bg-blue-00 ">
+      <div className="container mx-auto text-center mb-4 bg-blue-00 font-serif ">
         <h2 className="text-4xl font-semibold text-blue-800 font-sarif">Our Services</h2> {/* Adjusted text color */}
         <p className="text-lg text-gray-700 mt-4 font-sarif">
           Explore the wide range of services we offer to help your business thrive.
