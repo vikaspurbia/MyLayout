@@ -29,10 +29,10 @@ const Hero = ({ isHovered }) => {
         {/* Conditionally hide content when a dropdown is open */}
         {!isHovered && (
           <>
-            <h1 className="text-lime-400 text-4xl font-bold mb-2 drop-shadow-lg transition-all duration-1000">
+            <h1 className="text-lime-400 text-4xl font-bold mb-2 drop-shadow-lg transition-all duration-1000 font-serif">
               IT Solutions for Your Business
             </h1>
-            <button className="bg-lime-500 hover:bg-lime-600 text-black font-semibold py-2 px-4 rounded-3xl transition duration-300 ease-in-out shadow-lg">
+            <button className="bg-lime-500 font-serif hover:bg-lime-600 text-lime-100  py-2 px-3 rounded-3xl transition duration-300 ease-in-out shadow-lg">
               Explore Now
             </button>
           </>

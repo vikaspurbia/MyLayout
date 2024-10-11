@@ -175,7 +175,7 @@ const Navbar = () => {
 
       {/* Get in Touch Button */}
       <div className="ml-4 mt-4">
-        <a href="#contact" className="bg-lime-500 text-white py-2 px-3 rounded-lg hover:bg-lime-600 transition duration-200">Get in Touch</a>
+        <a href="#contact" className="bg-lime-500 text-white py-2 px-3 rounded-lg hover:bg-lime-600 transition duration-200 ">Get in Touch</a>
       </div>
     </nav>
   );
