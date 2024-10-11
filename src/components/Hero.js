@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const Hero = ({ isHovered }) => {
-  const images = ['DSC_0049.jpeg', 'DSC_0001.jpeg', 'DSC_0017.jpeg', 'DSC_0046.jpg'];
+  const images = ['DSC_0049.jpeg', 'DSC_0001.jpeg', 'DSC_0046.jpg'];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
